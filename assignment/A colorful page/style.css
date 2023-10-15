@@ -1,0 +1,19 @@
+body{
+   background-image: url('gratisogarphy-distressed-brick-free-stock-photo-1168x780.jpg');
+   background-position: cover;
+
+}
+ul{
+    color:white;
+    background-color: rgb(0, 191, 255);
+    
+}
+h1{
+    color:lawngreen;
+    background-color: rgb(0, 191, 255);
+    opacity:0.5s;
+}
+p{
+    color:white;
+    background-color: rgb(0, 191, 255);
+}
