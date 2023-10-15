@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    table,th ,td {
+        border: 1px solid black;
+
+      }
+    </style>
+</head>
+<body>
+        <h1>My Portofolio</h1>
+        <hr>
+        <ul>
+            <li><a href="index3.html">Contact Me</a></li>
+            <li><a href="index2.html">My projects</a></li>
+        </ul>
+        <h1>Who is Melos Halili</h1>
+        <div id="about">
+            <img src="71.webp" alt="dummy photo" height="300px" width="300px">
+            <p>I am Melos Halili, i am 17 years old and i live in Gjilan. The rest of this paragraph will be dummy text to fill in the space Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit explicabo consequuntur iure quis, veritatis iste neque itaque praesentium autem ex inventore cupiditate, optio commodi quam perferendis at? Fugit, nam commodi.</p>
+
+            <br>
+            <h1>Education</h1>
+            <ul>
+                <li>Primary School</li>
+                <ul>
+                    <li>Selami Hallaqi</li>
+                </ul>
+                <li>High School</li>
+                <ul>
+                    <li>Xhavit Ahmeti</li>
+                </ul>
+                <li>University</li>
+                <ul>
+                    <li> Filan Fisteku fakulltet</li>
+                </ul>
+            </ul>
+            <h1>My Skills</h1>
+            <table>
+                <tr>
+                    <th>#</th>
+                    <th>English Language</th>
+                    <th>Mathematics</th>
+                    <th>HTML5</th>
+                    <th>CSS3</th>
+                    <th>JavaScript</th>
+                    <th>Networking</th>
+                </tr>
+                <tr>
+                    <td>Rating</td>
+                    <td>Excellent</td>
+                    <td>Bad</td>
+                    <td>Decent</td>
+                    <td>Decent</td>
+                    <td>Unexperienced</td>
+                    <td>Not a clue</td>
+                </tr>
+            </table>
+
+            <h1>My Projects</h1>
+
+            <ol>
+                <li>Melosport<a href="index2.html">Read More</a></li>
+                <li>Filan Project<a  id= "read"href="#"> Read More</a></li>
+                <li>Filan Project<a  id= "read"href="#"> Read More</a></li>
+            </ol>
+
+
+        </div>
+
+        <footer>
+            <p>All rights reserved Melos Halili &copy</p>
+
+        </footer>
+
+        <script>
+            let read = document.getElementById("read");
+
+            read.addEventListener('click',function(){
+                alert("Its a fake link why did you click on it?")
+
+            })
+        </script>
+
+</body>
+</html>
