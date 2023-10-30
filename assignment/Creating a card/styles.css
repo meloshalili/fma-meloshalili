@@ -1,0 +1,46 @@
+.comic-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.header {
+    display: flex;
+    background-color: #fff; 
+    color: #000; 
+    text-align: center;
+    padding: 10px;
+
+}
+
+.price-box, .date-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-box {
+    border-right: 1px solid #000; 
+}
+
+.label {
+    font-size: 12px;
+}
+
+.price, .date {
+    font-size: 16px;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box img {
+    width: 100%;
+    display: block;
+}
