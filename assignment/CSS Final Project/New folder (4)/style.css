@@ -39,7 +39,7 @@
     width: 250px;
     position: fixed;
     height: 100%;
-    overflow-y: hidden;
+    overflow-y: scroll;
     background-image: url("sidebar-1.jpg");
     background-size: cover;
 }
